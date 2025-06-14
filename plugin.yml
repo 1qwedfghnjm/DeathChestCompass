@@ -1,0 +1,14 @@
+name: DeathChestCompass
+version: 1.0
+main: com.aternos.deathchestcompass.DeathChestCompass
+api-version: 1.16
+authors: [YourName]
+description: A plugin that creates death chests and gives compasses to locate them
+commands:
+  deathchest:
+    description: Manage your death chest
+    usage: /deathchest [reload]
+permissions:
+  deathchest.reload:
+    description: Allows reloading the plugin configuration
+    default: op
