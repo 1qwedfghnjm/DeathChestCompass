@@ -1,0 +1,28 @@
+# DeathChestCompass Configuration
+
+# How long death chests should be protected (in seconds)
+chest-protection-time: 300 # 5 minutes
+
+# Compass settings
+compass:
+  name: "&eDeath Location"
+  lore: "&7Points to where you died"
+  material: COMPASS
+  
+# Messages
+messages:
+  chest-created: "&aYour items have been stored in a death chest!"
+  compass-given: "&aYou have been given a compass to locate your death chest!"
+  chest-opened: "&aYou have recovered your items!"
+  chest-expired: "&cYour death chest has expired and been removed!"
+  no-death-chest: "&cYou don't have an active death chest."
+  already-have-compass: "&cYou already have a death compass!"
+  
+# Multi-world settings
+world-settings:
+  overworld:
+    compass-behavior: "point-directly"
+  nether:
+    compass-behavior: "point-to-portal"
+  end:
+    compass-behavior: "point-to-portal"
