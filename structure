@@ -1,0 +1,16 @@
+DeathChestCompass/
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── aternos/
+│       │           └── deathchestcompass/
+│       │               ├── DeathChestCompass.java
+│       │               ├── CompassTracker.java
+│       │               └── ChestManager.java
+│       └── resources/
+│           ├── plugin.yml
+│           └── config.yml
+├── .gitignore
+├── pom.xml
+└── README.md
